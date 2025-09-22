@@ -46,9 +46,12 @@ By default, CrustNote runs on:
 
 #### Create Task
 
-```json
+```bash
 POST /tasks
 Content-Type: application/json
+```
+
+```json
 
 {
   "title": "This is why I love Rust",
@@ -99,8 +102,8 @@ DELETE /tasks/:id
 
 ## 🛠 Tech Stack
 
-Rust
-Axum  (web framework)
-Tokio (async runtime)
-Serde (serialization)
-UUID  (unique IDs)
+- Rust
+- Axum  (web framework)
+- Tokio (async runtime)
+- Serde (serialization)
+- UUID  (unique IDs)
